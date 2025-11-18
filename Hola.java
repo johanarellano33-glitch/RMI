@@ -1,8 +1,8 @@
-package example.hello;
+package example.Hola;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 
-public interface Hello extends Remote {
+public interface Hola extends Remote {
     String sayHello() throws RemoteException;
 }
